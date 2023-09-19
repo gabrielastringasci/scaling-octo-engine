@@ -8,11 +8,11 @@ int main (void){
 	struct aluno *aluno1, *aluno2, *mediamaior;
 	
 	if(!(aluno1=malloc(sizeof(struct aluno)))){
-		printf("Faltou memória!");
+		printf("Faltou memÃ³ria!");
 		exit(1);
 	}
 	if(!(aluno2=malloc(sizeof(struct aluno)))){
-		printf("Faltou memória!");
+		printf("Faltou memÃ³ria!");
 		exit(2);
 	}
 
